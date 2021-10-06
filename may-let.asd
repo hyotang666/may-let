@@ -2,7 +2,7 @@
 (in-package :asdf)
 (defsystem "may-let"
   :version
-  "0.0.0"
+  "1.0.0"
   :depends-on
   nil
   :pathname
