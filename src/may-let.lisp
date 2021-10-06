@@ -22,8 +22,8 @@
                     :for bind :in bind*
                     :when var
                       :collect `(,var nil (funcall ,var))
-                    :collect `((setf ,var) (new) (setq ,var (lambda () new))
-                               new))
+                      :and :collect `((setf ,var) (new)
+                                      (setq ,var (lambda () new)) new))
          (symbol-macrolet ,(loop :for var :in vars
                                  :for bind :in bind*
                                  :when var

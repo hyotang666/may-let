@@ -2,7 +2,7 @@
 (in-package :asdf)
 (defsystem "may-let"
   :version
-  "1.0.0"
+  "1.0.1"
   :author "SATO Shinichi"
   :license "Public domain"
   :description "Local version of cl:defvar."
