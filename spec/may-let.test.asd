@@ -2,7 +2,7 @@
 (in-package :asdf)
 (defsystem "may-let.test"
   :version
-  "0.0.0"
+  "0.1.0"
   :depends-on
   (:jingoh "may-let")
   :components
