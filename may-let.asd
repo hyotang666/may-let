@@ -5,7 +5,7 @@
   "1.0.2"
   :author "SATO Shinichi"
   :license "Public domain"
-  :description "Local version of cl:defvar."
+  :description "Local variable without initialization. If refer before asign, an error is signaled."
   :depends-on
   nil
   :pathname

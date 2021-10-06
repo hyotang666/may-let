@@ -1,6 +1,7 @@
 # MAY-LET 0.0.0
 ## What is this?
-Local version of the cl:defvar.
+Local variable without initialization.
+If refer before asign, an error is signaled.
 
 ## Alternatives and differences.
 Please tell me if exists.
