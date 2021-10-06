@@ -3,6 +3,9 @@
 (defsystem "may-let"
   :version
   "1.0.0"
+  :author "SATO Shinichi"
+  :license "Public domain"
+  :description "Local version of cl:defvar."
   :depends-on
   nil
   :pathname
