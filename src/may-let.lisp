@@ -19,7 +19,6 @@
                  :else
                    :collect bind)
        (flet ,(loop :for var :in vars
-                    :for bind :in bind*
                     :when var
                       :collect `(,var nil (funcall ,var))
                       :and :collect `((setf ,var) (new)
