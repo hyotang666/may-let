@@ -17,7 +17,10 @@
                               (lambda ()
                                 (error "~S is not initialized yet." ',bind)))
                  :else
-                   :collect bind)
+                   :collect (progn
+                             #+allegro
+                             (assert (<= 0 (length bind) 2))
+                             bind))
        (flet ,(loop :for var :in vars
                     :when var
                       :collect `(,var nil (funcall ,var))

@@ -2,7 +2,7 @@
 (in-package :asdf)
 (defsystem "may-let"
   :version
-  "1.0.2"
+  "1.0.3"
   :author "SATO Shinichi"
   :license "Public domain"
   :description "Local variable without initialization. If refer before asign, an error is signaled."
