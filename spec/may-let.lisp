@@ -23,6 +23,7 @@
 ; If BIND is symbol, such var is not initialized.
 #?(may-let (a) a) :signals error
 ,:lazy t
+,:ignore-signals warning ; CMUCL needs.
 ; After asigned, it works.
 #?(may-let (a) (setq a 0) a) => 0
 
