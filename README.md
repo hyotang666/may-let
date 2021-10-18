@@ -97,6 +97,9 @@ SBCL
 * CCL/1.12.1
 * ECL/21.2.1
 * CLISP/2.49
+* Allegro/10.1
+* CMUCL/21D
+* ABCL/1.8.0
 
 ## Installation
 
